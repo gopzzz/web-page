@@ -1,0 +1,98 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: sticky;
+        top: 0;
+        cursor: pointer;
+    }
+
+    .background {
+        background: black;
+        background-blend-mode: darken;
+        background-size: cover;
+    }
+
+    .nav-list {
+        width: 70%;
+        display: flex;
+        align-items: center;
+    }
+
+    
+    .nav-list li {
+        list-style: none;
+        padding: 26px 30px;
+    }
+
+    .nav-list li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .nav-list li a:hover {
+        color: grey;
+    }
+
+    .rightnav {
+        width: 30%;
+        text-align: right;
+    }
+
+  
+
+    .mainbody {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 80%;
+        margin: auto;
+        background-image: url(https://previews.123rf.com/images/bwzenith/bwzenith1601/bwzenith160100026/50503294-defocused-background-of-a-typical-university-campus-intentionally-blurred-post-production-for-bokeh-.jpg);
+        margin-top: 100px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover ;
+    }
+
+   h1{
+       font-size: 70px;
+       font-style: italic;
+       color:rgb(235, 19, 19);
+   }
+   .heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    font-style: italic;
+    font-style: oblique;
+    margin-left: 50px;
+    color:rgb(165, 0, 0);
+    
+   }
+   p{
+       color: rgb(0, 12, 12);
+       font-size: 25px;
+       margin-left: 100px;
+   }
+   p2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    font-size: 25px;
+   }
+   p3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    font-size: 25px;
+    margin-top: 200px;
+   }

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="mainApp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="coursestyle.css">
+    <script src="scripts/angular.min.js"></script>
+    <script src="scripts/controller.js"></script>
+    
+</head>
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <li><a href="#home"></a></li>
+            <li><a href="#contact"></a></li>
+        </ul>
+    </nav>
+<div class="container">
+<div ng-controller="courses">
+  <h1>COURSE DETAILS</h1>
+ 
+  
+  <div class="searchbox">
+  <input type="text" placeholder="Search Here" ng-model="searchbox"/>
+</div>
+
+
+  <table>
+    
+    <tr>
+        
+        <th>NAME</th>
+        <th>DURATION</th>
+      </tr>
+    <tr ng-repeat="courses in courses|filter:searchbox">
+
+      
+      <td >{{courses.NAME}}</td>
+      <td >{{courses.DURATION}}</td>
+      
+    </tr>
+</table>
+
+
+
+
+</div>
+</div>
+
+</body>
+</html>

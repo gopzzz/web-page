@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: center;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    cursor: pointer;
+    
+}
+
+.background {
+    background: rgb(136, 127, 127);
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.nav-list {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.nav-list li a:hover {
+    color: grey;
+}
+
+
+
+:root {
+    --error-color: #dc3545;
+    --success-color: #28a745;
+    --warning-color: #ffc107;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.para{
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(255, 139, 62);
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background-image: url(https://thumbs.dreamstime.com/b/blurry-background-library-college-sun-light-abstract-self-education-learning-concept-149836962.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    
+}
+
+.container {
+    background-color:  rgb(243, 201, 174);
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(10, 9, 9, 0.041);
+    width: 400px;
+}
+
+.form {
+    padding: 10px 20px;
+}
+
+.form h1 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.form-field {
+    margin-bottom: 5px;
+
+}
+
+.form-field label {
+    display: block;
+    color: rgb(32, 30, 30);
+    margin-bottom: 5px;
+}
+
+.form-field input {
+    border: solid 2px #f0f0f0;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+}
+
+.form-field input:focus {
+    outline: none;
+}
+
+.form-field.error input {
+    border-color: var(--error-color);
+}
+
+.form-field.success input {
+    border-color: var(--success-color);
+}
+
+
+.form-field small {
+    color: var(--error-color);
+}
+#message{
+    padding: 100px;
+}
+
+
+/* button */
+.btn {
+    width: 50%;
+    padding: 4%;
+    background: #f2f5f8;
+    border-bottom: 2px solid #e7eaee;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    color: rgb(245, 6, 6);
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background: #e2a799;
+    cursor: pointer;
+}
+
